@@ -1,0 +1,475 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300i,400,700&display=swap');
+body, html {
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  margin: 0;
+  }
+img {
+ 
+width: 30%;
+position: absolute; top: 10px; right: 50px;
+  display: none;
+}
+h4{
+  font-weight: 10px;
+  font-size: 20px;
+}
+p{
+  
+  font-size: 27px;
+  margin: 30px 0; 
+}
+h2{
+  font-weight: 800;
+  font-size: 50px;
+}
+h3{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.hero-banner h3{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0 0 35px;
+  
+}
+.hero-banner h4{
+  color:white;
+  margin: 0;
+  
+}
+.hero-banner h1{
+  font-weight: 800;
+  font-size: 50px;
+  color: black;
+  margin: 14px 0 20px;
+}
+.hero-banner{
+  background-color: #DBBF44;
+  min-height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.wrapper{
+  width: 100%;
+  margin: 0 auto;  
+}
+a.cta, button.cta{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background: #CC246C;
+  display: inline-block;
+  border: 10px solid rgba(0,0,0,.14);
+  padding: 14px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+a.cta.alt, button.cta.alt{
+  background: #67C3B7;
+}
+.more-info{
+  text-align: center;
+}
+.more-info p{
+ margin: 18px 21px;
+}
+.more-info h2{
+  margin: 50px 0 0;
+}
+nav {
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+    display: block;
+    width: 137px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    margin-left: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+nav ul li{
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+nav ul li a{
+  display: block;
+    height: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    padding: 30px 8px;
+  
+}
+.sep{
+    width: 250px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
+}
+.nb-list li{
+  height: 70px;
+  
+  background-color:white;
+  box-sizing: 10px;
+  display: inline-block;
+  float:left;
+  padding: 10px;
+  margin-left: 20px;
+  width: 320px;
+ 
+}
+.story{
+   text-align: center;
+    width: 100%; 
+}
+.porto{
+  width: 83%;
+    height: 350px;
+    display: inline-block;
+    margin: 0px;
+}
+.a{ 
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/4y7rb2C7/dahlia-makeup.png");
+background-size: 100%;}
+.b{ 
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/rsDLZF4p/andromeda-bakery-logo.png");
+background-size: 100%;}
+.c{ 
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/fRT18bhQ/lesly-makeup.png");
+background-size: 100%;}
+.d{ 
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/gk53TMCc/belle-makeup.png");
+background-size: 100%;}
+.table1{
+  text-size:300px;
+  background-color:#ffffff;
+  text-align: center;
+}
+.s{
+   font-weight:400;
+}
+.h3{
+  font-size: 20px;
+  font-weight:100;
+  color:#CC246C;
+}
+.col{
+  font-family: 'Rubik', sans-serif;
+  color:#111;
+  background-color:#fff;
+  float:left;
+  width:100%;
+  padding:18px;
+  box-sizing:border-box;
+}
+.price-box{
+  color:#111;
+  background-color:#fff;
+  list-style:none;
+  border:1px solid #555;
+  margin:0px;
+  padding:0px;
+  transition:0.3s;
+  border-radius: 10px;
+}
+strong { 
+  font-weight: bold;
+}
+.special{
+  background-color:#67C3B7;
+  font-weight: bold;
+  font-size: 30px;
+}
+.price-box:hover, .price-box.best{
+  box-shadow:0px 10px 15px 0px #000 ;
+}
+.header-box{
+  background-color:#111;
+  color:#fff;
+  font-size:21px;
+  
+}
+.price-box li{
+  padding:20px;
+  border-bottom:1px solid #eee;
+  text-align:center;
+  border-radius: 10px;
+}
+#footer {
+  position: relative;
+  height:150px;
+  margin-top:-200px;
+  background-color:#DBBF44;
+  clear:both;
+}
+.footer-icons{
+  height:auto;
+  margin:auto;
+  padding:20px;
+  /*width:100%;*/
+}
+.footer-icons ul{
+  padding:0px;
+  margin:0px;
+  text-align:center;
+}
+.footer-icons ul li{
+  display:inline-block;
+  height:50px;
+  margin:0 10px;
+  width:50px;
+  border-radius:100%;
+  background-color:#000000;
+}
+.footer-icons ul li a{
+  color:#DBBF44;
+  font-size:25px;
+  display:block;
+}
+.footer-icons ul li a i{
+  line-height:50px;
+}
+.footer-menu{
+  /*width:100%;*/
+  height:auto;
+  margin:auto;
+}
+#footer-bottom{
+  /*width:100%;*/
+  height:auto;
+  margin:auto;
+  background:#948E82;
+  padding:8px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.design{
+  text-decoration: none;
+  color: #CC246C;
+}
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait){
+  .hero-banner h1 {
+    font-size: 80px;
+  }
+.hero-banner h3 {
+    font-weight: bold;
+  font-size: 40px;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 148px -5px;
+  }
+  nav .logo {
+    display: block;
+    width: 197px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+    margin-left: 39px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+  .sep{
+    width: 350px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
+}
+  .porto{
+  width: 350px;
+ height: 350px;
+  display: inline-block;
+  margin: 3px;
+}
+  .more-info p {
+    margin: 29px 21px;
+}
+}
+@media (min-width: 1199.98px)  {
+  .hero-banner h1 {
+    font-size: 80px;
+  }
+.hero-banner h3 {
+    font-weight: bold;
+  font-size: 40px;
+  }  
+  .hero-banner {
+    background-color: #DBBF44;
+    min-height: 100vh;
+      padding: 50px 20px;}
+  .wrapper {
+    width: 100%;
+    margin: 148px 55px;}
+  .wrapperb{
+    width: 100%;
+    margin: 147px -2px;
+  }
+  img{
+    width: 30%;
+position: absolute; top: 230px; right: 80px;
+    display: block;
+    
+  }
+  .more-info p {
+    margin: 29px 181px;
+    text-align: center;
+    font-size: 41px;
+  }
+  nav {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav .logo{
+  display: block;
+  width: 300px;
+  height: 40px;
+  position: absolute; top: 50%; left:0;
+  margin-top: -20px;
+  margin-left: 30px;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+nav ul li{
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: normal;
+  color:black;
+  text-decoration: none;
+  padding: 32px 22px;
+  
+}
+  .sep{
+    width: 470px;
+    height: 10px;
+    background-color: #111111;
+    margin: 70px auto;
+}
+  .story{
+ width: 50%;
+ margin: 0 auto;
+ text-align: center;
+ 
+}
+.porto{
+  width: 350px;
+ height: 350px;
+  display: inline-block;
+  margin: 3px;
+}
+.a{ 
+  background-color: black;}
+.b{ 
+  background-color: blue;}
+.c{ 
+  background-color: yellow;}
+.d{ 
+  background-color: orange;}
+
+.table1{
+  text-size:300px;
+  background-color:#ffffff;
+  text-align: center;
+}
+.s{
+   font-weight:400;
+}
+.h3{
+  font-size: 20px;
+  font-weight:100;
+  color:#CC246C;
+}
+.col{
+  font-family: 'Rubik', sans-serif;
+  color:#111;
+  background-color:#fff;
+  float:left;
+  width:33%;
+  padding:18px;
+  box-sizing:border-box;
+}
+.price-box{
+  color:#111;
+  background-color:#fff;
+  list-style:none;
+  border:1px solid #555;
+  margin:0px;
+  padding:0px;
+  transition:0.3s;
+  border-radius: 10px;
+}
+strong { 
+  font-weight: bold;
+}
+.special{
+  background-color:#67C3B7;
+}
+.price-box:hover, .price-box.best{
+  box-shadow:0px 10px 15px 0px #000 ;
+}
+.header-box{
+  background-color:#111;
+  color:#fff;
+  font-size:25px;
+  
+}
+.price-box li{
+  padding:20px;
+  border-bottom:1px solid #eee;
+  text-align:center;
+  border-radius: 10px;
+}
+  }
