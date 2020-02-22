@@ -13,15 +13,19 @@ width: 30%;
 position: absolute; top: 10px; right: 50px;
   display: none;
 }
+
 h4{
   font-weight: 10px;
   font-size: 20px;
 }
 p{
-  
-  font-size: 27px;
-  margin: 30px 0; 
+ font-size: 27px;
+  color-font:white;
+  margin: auto;
+    text-align: center;
+    padding: 20px;
 }
+
 h2{
   font-weight: 800;
   font-size: 50px;
@@ -226,20 +230,23 @@ strong {
   border-radius: 10px;
 }
 #footer {
-  position: relative;
-  height:150px;
-  margin-top:-200px;
-  background-color:#DBBF44;
-  clear:both;
+background-color: #DBBF44;
+    clear: both;
+
+    position: relative;
+    height: 200px;
+    margin-top: -200px
+ 
+
 }
 .footer-icons{
   height:auto;
-  margin:auto;
-  padding:20px;
+  margin:3px;
+  padding:-14px;
   /*width:100%;*/
 }
 .footer-icons ul{
-  padding:0px;
+  padding:3px;
   margin:0px;
   text-align:center;
 }
@@ -271,6 +278,7 @@ strong {
   background:#948E82;
   padding:8px;
   text-align: center;
+  
 }
 a{
   text-decoration: none;
@@ -279,6 +287,25 @@ a{
 .design{
   text-decoration: none;
   color: #CC246C;
+}
+.tableb{
+  background-color: purple;
+  height: 100px;
+    padding: 10px;
+    display: inline-flex;
+    width: 100%
+}
+a.cta, button.cta {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: #CC246C;
+    display: inline-flex;
+    border: 10px solid rgba(0,0,0,.14);
+    padding: 14px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: auto;
 }
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait){
   .hero-banner h1 {
